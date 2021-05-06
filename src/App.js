@@ -3,6 +3,7 @@ import Home from './components/home/homepage/home'
 import Footer from './components/footer/Footer'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Fleet from './components/fleet/Fleet';
+import FleetSubPage from './components/fleet/fleet-subpage/Fleet-Subpage';
 import About from './components/about/About';
 import Programs from './components/programs/Programs';
 import Stations from './components/stations/Stations';
@@ -23,6 +24,10 @@ const App = () => {
 
             <Route exact path="/the-fleet">
               <Fleet />
+            </Route>
+            
+            <Route exact path="/the-fleet/fleet-subpage">
+              <FleetSubPage />
             </Route>
 
             <Route exact path="/about">

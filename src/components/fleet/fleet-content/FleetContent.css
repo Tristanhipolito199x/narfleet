@@ -6,7 +6,13 @@
     display: flex;
     justify-content: center;
 }
-
+.fleet-container{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+    margin: 0px 25px;
+    
+}
 .fleet-content2 {
     height: 443px;
     position: absolute;
@@ -17,12 +23,12 @@
 }
 
 .fleet-img {
-    border-radius: 50%;
     height: 100%;
-    width: 443px;
-    border: 2px solid #FFFFFF;
     position: relative;
-    overflow: hidden;
+    text-align: center;
+    color: white;
+    z-index: 0;
+    
 }
 
 .overlay{
@@ -34,6 +40,33 @@
     background-color: rgba(255, 255, 255, 0.051);
     z-index: 999;
 }
+
+.fleet-img:hover img{
+    transform: scale(1.05);
+}
+
+.fleet-img img{
+    transition: transform .5s ease;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+    opacity:0;
+    letter-spacing: 1.5px;
+    font-family: 'Avenir Book';
+    color: #ffff;
+    font-size: 14px;
+  }
+  
+  .fleet-img:hover .text-overlay {
+    opacity: 1;
+    
+  }
 
 .fleet-img img:nth-child(1) {
     border-radius: 50%;
@@ -353,9 +386,9 @@
         height: 6px;
         width: 6px;
     }
-    
     .explore-marg {
-        height: 782px;
+        height: 80vh;
+        margin-bottom: 150px;
     }
 }
 
@@ -484,6 +517,159 @@
 
     .explore-marg {
         height: 80vh;
-        margin-bottom: 126px;
+        margin-bottom: 250px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1360px){
+    .fleet-content {
+        height: 300px;
+        top: 250px;
+    }
+    .fleet-container{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+    margin: 0px 40px;
+    width: 300px; 
+}
+    .fleet-content2 {
+        height: 300px;
+        top: 846px;
+    }
+    .fleet-img {
+        width: 300px;
+    }
+    
+    .overlay{
+        width: 300px;
+    }
+    
+    .fleet-img img:nth-child(2) {
+        height: 100px;
+        width: 300px;
+        top: 100px;
+    }
+    
+    .top-stroke {
+        height: 8px;
+    }
+    
+    .top-left-stroke {
+        height: 8px;
+        left: 44px;
+        top: 44px;
+    }
+    
+    .top-right-stroke {
+        height: 8px;
+        right: 44px;
+        top: 44px;
+    }
+    
+    .bottom-left-stroke {
+        height: 8px;
+        left: 44px;
+        bottom: 44px;
+    }
+    
+    .bottom-right-stroke {
+        height: 8px;
+        right: 44px;
+        bottom: 44px;
+    }
+    
+    .bottom-stroke {
+        height: 8px;
+    }
+    
+    .left-stroke {
+        height: 9px;
+        left: 5px;
+    }
+    
+    .right-stroke {
+        height: 9px;
+        right: 5px;
+    }
+    
+    .fleet-img:nth-child(n+2) {
+        margin-left: 44px;
+    }
+    
+    .fleet-card {
+        top: 583px;
+    }
+    
+    .fleet-card2 {
+        top: 1180px;
+    }
+    
+    .fleet-context {
+        width: 346px;
+    }
+    
+    .fleet-context:nth-child(n+2) {
+        margin-left: 20px;
+    }
+    
+    .second-p {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    
+    .second-p p:nth-child(2) {
+        margin-top: 5px;
+    }
+    
+    .blue-line {
+        left: 79px;
+        top: 9px;
+        height: 163px;
+    }
+    
+    .circle-top{
+        left: -3px;
+        top: -4px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-mid{
+        left: -3px;
+        top: 53px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-bottom{
+        left: -3px;
+        bottom: -3px;
+        height: 6px;
+        width: 6px;
+    }
+    .text-overlay {
+        position: absolute;
+        top: 87%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.3s ease;
+        opacity:0;
+        font-family: 'Avenir Book';
+        font-size: 11px;
+      
+      }
+      
+      .fleet-img:hover .text-overlay {
+        opacity: 1;
+        
+      }
+
+      .fleet-context p{
+          font-size: 14px;
+      }
+      .explore-marg {
+        height: 80vh;
+        margin-bottom: 50px;
+    }
+    }

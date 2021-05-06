@@ -1,0 +1,373 @@
+.fleet-content3 {
+    height: 700px;
+    position: absolute;
+    top: 261px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fleet-container3{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+    margin: 0px 25px;
+    
+}
+
+.fleet-img3{
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 0;
+    
+}
+
+.overlay3{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 443px;
+    background-color: rgba(255, 255, 255, 0.051);
+    z-index: 999;
+}
+
+.fleet-img3:hover img{
+    transform: scale(1.05);
+}
+
+.fleet-img3 img{
+    transition: transform .5s ease;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+    opacity:0;
+    letter-spacing: 1.5px;
+    font-family: 'Avenir Book';
+    color: #ffff;
+    font-size: 14px;
+  }
+  
+  .fleet-img3:hover .text-overlay {
+    opacity: 1;
+    
+  }
+
+.fleet-img3 img:nth-child(1) {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* transition: transform .5s ease; */
+}
+
+.fleet-img3 img:nth-child(2) {
+    height: 207px;
+    width: 437px;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    top: 128px;
+    /* transition: transform .5s ease; */
+}
+
+/* .fleet-img img:hover{
+    transform: scale(1.05);
+} */
+
+.top-stroke3 {
+    position: absolute;
+    height: 13px;
+    top: 0;
+    left: 50%;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+}
+
+.top-left-stroke3 {
+    position: absolute;
+    height: 13px;
+    left: 65px;
+    top: 65px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(-225deg);
+}
+
+.top-right-stroke3 {
+    position: absolute;
+    height: 13px;
+    right: 65px;
+    top: 65px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(-135deg);
+}
+
+.bottom-left-stroke3 {
+    position: absolute;
+    height: 13px;
+    left: 65px;
+    bottom: 65px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(-135deg);
+}
+
+.bottom-right-stroke3 {
+    position: absolute;
+    height: 13px;
+    right: 65px;
+    bottom: 65px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(-225deg);
+}
+
+.bottom-stroke3 {
+    position: absolute;
+    height: 13px;
+    left: 50%;
+    bottom: 0;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+}
+
+.left-stroke3 {
+    position: absolute;
+    height: 13px;
+    top: 50%;
+    left: 6px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(90deg);
+}
+
+.right-stroke3 {
+    position: absolute;
+    height: 13px;
+    top: 50%;
+    right: 6px;
+    background-color: white;
+    width: 0;
+    border: 1px solid white;
+    transform: rotate(90deg);
+}
+
+.fleet-img3:nth-child(n+2) {
+    margin-left: 56px;
+}
+
+.fleet-card3 {
+    position: absolute;
+    top: 746px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fleet-context3 {
+    width: 443px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    line-height: 1.2;
+}
+
+.fleet-context3:nth-child(n+2) {
+    margin-left: 56px;
+}
+
+.second-p3 {
+    margin-top: 32px;
+    margin-left: 18px;
+    line-height: 1.4;
+}
+
+.second-p3 p:nth-child(2) {
+    margin-top: 6px;
+}
+
+.blue-line3 {
+    position: absolute;
+    left: 90px;
+    top: 12px;
+    height: 209px;
+    background-color: #0A505F;
+    width: 1px;
+}
+
+.circle-top3{
+    position: absolute;
+    left: -4px;
+    top: -5px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+
+.circle-mid3{
+    position: absolute;
+    left: -4px;
+    top: 65px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+
+.circle-bottom3{
+    position: absolute;
+    left: -4px;
+    bottom: -5px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+
+.fleetHeight3 {
+    height: 100vh;
+    margin-bottom: 126px;
+}
+
+
+
+@media (min-width: 1920px) {
+    .fleet-content3 {
+        height: 700px;
+        top: 261px;
+    }
+    
+    .fleet-img3 {
+        width: 700px;
+    }
+    
+    .overlay3{
+        width: 700px;
+    }
+    
+    .fleet-img3 img:nth-child(2) {
+        height: 207px;
+        width: 437px;
+        top: 128px;
+    }
+    
+    .top-stroke3 {
+        height: 13px;
+    }
+    
+    .top-left-stroke3 {
+        height: 13px;
+        left: 65px;
+        top: 65px;
+    }
+    
+    .top-right-stroke3 {
+        height: 13px;
+        right: 65px;
+        top: 65px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 13px;
+        left: 65px;
+        bottom: 65px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 13px;
+        right: 65px;
+        bottom: 65px;
+    }
+    
+    .bottom-stroke3 {
+        height: 13px;
+    }
+    
+    .left-stroke3 {
+        height: 13px;
+        left: 6px;
+    }
+    
+    .right-stroke3 {
+        height: 13px;
+        right: 6px;
+    }
+    
+    .fleet-img3:nth-child(n+2) {
+        margin-left: 56px;
+    }
+    
+    .fleet-card3 {
+        top: 746px;
+    }
+        
+    .fleet-context3 {
+        width: 443px;
+    }
+    
+    .fleet-context3:nth-child(n+2) {
+        margin-left: 56px;
+    }
+    
+    .second-p3 {
+        margin-top: 32px;
+        margin-left: 18px;
+    }
+    
+    .second-p3 p:nth-child(2) {
+        margin-top: 6px;
+    }
+    
+    .blue-line3 {
+        left: 90px;
+        top: 12px;
+        height: 209px;
+    }
+    
+    .circle-top3{
+        left: -4px;
+        top: -5px;
+        height: 9px;
+        width: 9px;
+    }
+    
+    .circle-mid3{
+        left: -4px;
+        top: 65px;
+        height: 9px;
+        width: 9px;
+    }
+    
+    .circle-bottom3{
+        left: -4px;
+        bottom: -5px;
+        height: 9px;
+        width: 9px;
+    }  
+
+    .explore-marg {
+        height: 80vh;
+        margin-bottom: 240px;
+    }
+}
+

@@ -1,4 +1,54 @@
-.stationscontent-cotainer {
-    height: 1000px;
-    border: 1px solid white;
+.station-container{
+    height: 800px;
+    overflow: hidden;
+    top: 200px;
+    position: relative;
+    left: 120px;
+    margin-bottom: 300px;
+}
+
+.aboutCard{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  padding-right: 1000px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+  overflow-x: hidden;
+}
+
+.aboutContent-card2-1 {
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 1043px;
+    background-color: #FFFFFF1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.padding-about-card2 {
+    width: 920px;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.padding-about-card2 p:nth-child(1){
+    font-size: 26px;
+}
+
+.padding-about-card2 p:nth-child(2){
+    margin-top: 28px;
+}
+
+.padding-about-card2 p:nth-child(3){
+    margin-top: 23px;
+}
+
+.line{
+    border: 1px solid #5A7634;
+     width: 1043px;
+    margin-top: 50px;
 }

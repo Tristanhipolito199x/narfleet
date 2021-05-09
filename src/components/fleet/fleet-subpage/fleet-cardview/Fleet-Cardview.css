@@ -1,0 +1,343 @@
+.programs-container-2 {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.programs-content-2 {
+    height: 386px;
+    margin-top: 37px;
+    width: 1440px;
+    background-color: #FFFFFF1A;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+.title-blue{
+    height: 35px;
+    width: 14.5%;
+    position: absolute;
+    top: -20px;
+    left:85.5%;
+    border-radius: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    background-color: #0A505F;
+}
+.title-green{
+    height: 35px;
+    width: 14.5%;
+    position: absolute;
+    top: -20px;
+    left:85.5%;
+    border-radius: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    background-color: #5A7634;
+}
+
+.left-image-2 {
+    width: 575px;
+    height: 322px;
+    margin: 32px;
+    overflow: hidden;
+}
+
+.left-image-2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.left-image-2 img:hover{
+    transform: scale(1.1);
+}
+
+.programs-context-2 {
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+.programs-context-2 .green-color p{
+   line-height: 30px;
+}
+
+.programs-context-2 p:nth-child(1){
+    font-size: 19px;
+    font-family: 'Avenir Medium';
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+.programs-title-2 {
+    font-size: 27px;
+    font-family: 'Avenir Medium';
+    font-weight: 200;
+}
+
+.title-sub-2 {
+    font-size: 17px;
+}
+
+.green-color {
+    display: flex;
+    flex-direction: column;
+}
+
+.green-color:hover {
+    color: #5A7634;
+    cursor: pointer;
+    
+}
+
+.title-content-programs-2 {
+    font-family: 'Avenir Light';
+    width: 680px;
+    margin-top: 32px;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    color: #f8f8ff;
+}
+
+.learn-more-2 {
+    position: absolute;
+    font-size: 13px;
+    display: flex;
+    bottom: 32px;
+    right: 39px;
+}
+
+.learn-more-2:hover {
+    font-family: 'Avenir Medium';
+    cursor: pointer;
+}
+
+@media (min-width: 1600px) and (max-width: 1919px){
+    .programs-container-2 {
+        margin-top: 200px;
+    }
+    
+    .programs-content-2 {
+        height: 386px;
+        margin-top: 37px;
+        width: 1440px;
+        background-color: #FFFFFF1A;
+        border-radius: 5px;
+        display: flex;
+        position: relative;
+    }
+    
+    .title-blue{
+        height: 35px;
+        width: 14.5%;
+        position: absolute;
+        top: -20px;
+        left:85.5%;
+        border-radius: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        background-color: #0A505F;
+    }
+    .title-green{
+        height: 35px;
+        width: 14.5%;
+        position: absolute;
+        top: -20px;
+        left:85.5%;
+        border-radius: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        background-color: #5A7634;
+    }
+    
+    .left-image-2 {
+        width: 575px;
+        height: 322px;
+        margin: 32px;
+        overflow: hidden;
+    }
+    
+    .left-image-2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: transform .5s ease;
+    }
+    
+    .left-image-2 img:hover{
+        transform: scale(1.1);
+    }
+    
+    .programs-context-2 {
+        margin-left: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.2;
+    }
+    
+    .programs-context-2 .green-color p{
+       line-height: 30px;
+    }
+    
+    .programs-context-2 p:nth-child(1){
+        font-size: 18px;
+        font-family: 'Avenir Medium';
+    }
+    
+    .programs-title-2 {
+        font-size: 27px;
+        font-family: 'Avenir Medium';
+        font-weight: 200;
+    }
+    
+    .title-sub-2 {
+        font-size: 17px;
+    }
+    
+    .green-color {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .green-color:hover {
+        color: #5A7634;
+        cursor: pointer;
+        
+    }
+    
+    .title-content-programs-2 {
+        font-family: 'Avenir Light';
+        width: 680px;
+        margin-top: 32px;
+        line-height: 1.5;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        font-weight: 100;
+        color: #f8f8ff;
+    }
+    
+    .learn-more-2 {
+        position: absolute;
+        font-size: 13px;
+        display: flex;
+        bottom: 32px;
+        right: 39px;
+    }
+    
+    .learn-more-2:hover {
+        font-family: 'Avenir Medium';
+        cursor: pointer;
+    }
+}
+
+/*
+@media (min-width: 1365)  and (max-width: 1919px){
+    .programs-container-2 {
+        margin-bottom: 99px;
+        margin-top: 170px;
+    }
+    
+    .programs-content-2 {
+        height: 301px;
+        margin-top: 29px;
+        width: 1125px;
+        border-radius: 4px;
+    }
+    
+    .left-image-2 {
+        width: 449px;
+        height: 251px;
+        margin: 25px;
+    }
+    
+    .programs-context-2 {
+        margin-left: 41px;
+    }
+    
+    .programs-title-2 {
+        font-size: 21px;
+    }
+    
+    .title-sub-2 {
+        font-size: 13px;
+    }
+    
+    .title-content-programs-2 {
+        width: 531px;
+        margin-top: 25px;
+    }
+    
+    .learn-more-2 {
+        font-size: 10px;
+        bottom: 25px;
+        right: 30px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .programs-container-2 {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    
+    .programs-content-2 {
+        height: 386px;
+        margin-top: 37px;
+        width: 1440px;
+        border-radius: 5px;
+    }
+    
+    .left-image-2 {
+        width: 575px;
+        height: 322px;
+        margin: 32px;
+    }
+    
+    .programs-context-2 {
+        margin-left: 52px;
+    }
+    
+    .programs-title-2 {
+        font-size: 27px;
+    }
+    
+    .title-sub-2 {
+        font-size: 17px;
+    }
+    
+    .title-content-programs-2 {
+        width: 680px;
+        margin-top: 32px;
+    }
+    
+    .learn-more-2 {
+        font-size: 13px;
+        bottom: 32px;
+        right: 39px;
+    }
+}*/

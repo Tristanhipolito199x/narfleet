@@ -246,7 +246,6 @@ const FleetContent = () => {
                     </div>
                 </div>
             </div>
-
             <div className="explore-marg"></div>
         </div>
     )

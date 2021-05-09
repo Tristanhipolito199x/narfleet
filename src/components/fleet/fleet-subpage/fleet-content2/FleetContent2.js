@@ -2,24 +2,33 @@ import './FleetContent2.css'
 import ocean from '../../../../assets/Photos/fleet/background-01.png'
 import ship from '../../../../assets/Photos/fleet/kasarinlan-01.png'
 import { NavLink } from 'react-router-dom'
+import { MdNavigateBefore } from 'react-icons/md'
 // import { useState } from 'react'
+
 
 const FleetContent = () => {
     // const fleet = false;
     return (
         <div>
             <div className="fleet-content3">
-               <div className="fleet-context3">
-                    <p className="Avenir-black">RV KASARINLAN</p>
-                    <p className="Avenir-light">Manila Bay</p>
-                    <div className="blue-line3">
-                        <div className="circle-top3"></div>
-                        <div className="circle-mid3"></div>
-                        <div className="circle-bottom3"></div>
+                <div className="fleet-context6">
+                    <div className="blue-line6">
+                        <div className="circle2-1"></div>
+                        <div className="circle2-2"></div>
+                        <div className="circle2-3"></div>
                     </div>
-
-                    <div className="Avenir-light second-p3">
-                        <p className="Avenir-medium">SPECIFICATIONS</p>
+                    <div className="Avenir-light second-p6">
+                        <p><span className="Avenir-medium">
+                            <NavLink exact to="/the-fleet" style={{color: '#5A7634'}}>
+                                <MdNavigateBefore className="next-icon"/>    
+                            </NavLink>
+                             RV PANATA
+                         </span>
+                       </p>
+                        <p>Manila Bay</p>
+                    </div>
+                    <div className="Avenir-light second2-p6">
+                        <p>SPECIFICATIONS</p>
                         <p>Price: 30M</p>
                         <p>Dimensions: 28 meters</p>
                         <p>Contructions: MSI</p>
@@ -42,22 +51,31 @@ const FleetContent = () => {
                         <div className="bottom-right-stroke3"></div>
                     </div>
                 </div>
-                <div className="fleet-context3">
-                    <p className="Avenir-black">RV KASARINLAN</p>
-                    <p className="Avenir-light">Manila Bay</p>
-                    <div className="Avenir-light second-p3">
-                        <p className="Avenir-medium">SPECIFICATIONS</p>
-                        <p>Price: 30M</p>
-                        <p>Dimensions: 28 meters</p>
-                        <p>Contructions: MSI</p>
-                        <p>Building Year: 2020</p>
-                        <p>Engine: Volvo Penta D6-350</p>
+                <div className="fleet-context5">
+                    <div className="blue-line5">
+                        <div className="circle-1"></div>
+                        <div className="circle-2"></div>
+                        <div className="circle-3"></div>
+                        <div className="circle-4"></div>
+                        <div className="circle-5"></div>
                     </div>
-                    
-                    <div className="blue-line3">
-                        <div className="circle-top3"></div>
-                        <div className="circle-mid23"></div>
-                        <div className="circle-bottom3"></div>
+                    <div className="Avenir-light second-p5">
+                        <p><span className="Avenir-medium">Manila Bay </span> | June 2019</p>
+                        <p>Seismic Survey</p>
+                    </div>
+                    <div className="Avenir-light second-p5">
+                        <p><span className="Avenir-medium">Verde Island Passage</span> | July 2019</p>
+                        <p>Oceanographic and plastics research</p>
+                    </div>
+                    <div className="Avenir-light second-p5">
+                        <p><span className="Avenir-medium">Sorsogon Bay</span> | August 23-28, 2019</p>
+                        <p>Oceanographic and HABs research</p>
+                    </div>
+                    <div className="Avenir-light second-p5">
+                        <p><span className="Avenir-medium">Boracay Island</span> | Aug 29 - Sept 2, 2019</p>
+                    </div>
+                    <div className="Avenir-light second-p5">
+                        <p><span>Tubbataha Reefs</span> | October 2019</p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,119 @@
+[33mcommit 580c7bb9388c9f99b0fc2359a1de4277bf2f86f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Tristan Hipolito <tristan.hipolito199x@gmail.com>
+Date:   Thu May 6 11:09:04 2021 +0800
+
+    the fleet changes
+
+[33mcommit 6b2bb6a971c1d4058938524be593056ff59b1dbd[m[33m ([m[1;31mupstream/master[m[33m)[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Mon May 3 15:01:18 2021 +0800
+
+    5-3-2021
+
+[33mcommit 1d85a9c87e9e4673a0113d21710c2b4803c18f74[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Fri Apr 23 16:01:57 2021 +0800
+
+    programs page done
+
+[33mcommit d6864bd803efb88edd4ae2a42782950bd68623f6[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Thu Apr 22 18:12:31 2021 +0800
+
+    fleet page 1366 responsive v2
+
+[33mcommit 53778e4e1da8eac627a00c4558daea5f04ca4231[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Thu Apr 22 18:11:39 2021 +0800
+
+    fleet page 1366 responsive
+
+[33mcommit 746fd9896e902163366cc3599f77ae2472d75bfc[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Wed Apr 21 17:19:48 2021 +0800
+
+    navcenter
+
+[33mcommit 896b1e4fae785c59d040c55e7b34b741f110727e[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Wed Apr 21 14:10:20 2021 +0800
+
+    nav re-update 4-21-21
+
+[33mcommit a70ace6f2202b1094647a5a5b617628844da0b27[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Wed Apr 21 13:26:34 2021 +0800
+
+    fixed nav
+
+[33mcommit 69fd2d8de38342546dd7aac208c5942fbae9301a[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Wed Apr 21 11:58:16 2021 +0800
+
+    about page done responsive 1366
+
+[33mcommit d81cd4245c576dd137b2d094cb8eccd4b970b5c0[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Tue Apr 20 18:08:47 2021 +0800
+
+    about page done not responsive yet re
+
+[33mcommit 129a23a23e0e57fed7abe1b2e012fcbbb91151d2[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Tue Apr 20 18:07:21 2021 +0800
+
+    about page done not responsive yet v.2
+
+[33mcommit bf70811def1a456d691ca02c8c09487cbc076e28[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Tue Apr 20 18:02:49 2021 +0800
+
+    about page done not responsive yet
+
+[33mcommit 5549617eeaa9ad0be3e16e513d9460db610e08b5[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Mon Apr 19 13:32:26 2021 +0800
+
+    updated home (4-19-21 v2)
+
+[33mcommit ea7825a374eed68690f6141ef8186129f12e83eb[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Mon Apr 19 10:51:08 2021 +0800
+
+    updated home (4-19-21)
+
+[33mcommit 59a6f22b551bbec19cd9fe97499a51f979a24fb6[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Sat Apr 17 10:12:51 2021 +0800
+
+    updated padding qoute
+
+[33mcommit 796ba85fd99040855b0ae0d807d4318e75e836d0[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Fri Apr 16 17:35:07 2021 +0800
+
+    1366 to 1280
+
+[33mcommit 5ef46d9cdcefbf3e2f8c474e8e8e9aa59c9b0371[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Thu Apr 15 22:21:47 2021 +0800
+
+    responsive home
+
+[33mcommit 8037da3fd33ca5f2ec7f04cf69a282bc3eb22f12[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Tue Apr 13 13:01:27 2021 +0800
+
+    Applied fonts
+
+[33mcommit 438a614446e7e1ae16c4bf915326c0d846f09d13[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Mon Apr 12 18:21:00 2021 +0800
+
+    larger screen home responsive
+
+[33mcommit d32a2a50d4939e47ed7340fc95406d9060535b09[m
+Author: Francis Saavedra <msaavedra.k11504970@umak.edu.ph>
+Date:   Wed Apr 7 23:21:07 2021 +0800
+
+    Initialize project using Create React App

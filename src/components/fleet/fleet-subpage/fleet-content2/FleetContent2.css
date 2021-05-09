@@ -1,20 +1,21 @@
 .fleet-content3 {
-    height: 700px;
+    height: 750px;
     position: absolute;
-    top: 261px;
-    width: 100%;
+    top: 180px;
+    width: 95%;
     display: flex;
     justify-content: center;
 }
 .fleet-container3{
-    border-radius: 50%;
+    border-radius:50%;
     border: 2px solid #FFFFFF;
     overflow: hidden;
-    margin: 0px 25px;
+    /*margin: 0px 25px;*/
+    width: 750px;
     
 }
 
-.fleet-img3{
+.fleet-img3 {
     height: 100%;
     position: relative;
     text-align: center;
@@ -28,21 +29,21 @@
     position: absolute;
     top: 0;
     height: 100%;
-    width: 443px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.051);
     z-index: 999;
 }
 
 .fleet-img3:hover img{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .fleet-img3 img{
-    transition: transform .5s ease;
+    transition: transform .3s ease;
 }
 
 
-.text-overlay {
+.text-overlay3 {
     position: absolute;
     top: 87%;
     left: 50%;
@@ -52,10 +53,10 @@
     letter-spacing: 1.5px;
     font-family: 'Avenir Book';
     color: #ffff;
-    font-size: 14px;
+    font-size: 12px;
   }
   
-  .fleet-img3:hover .text-overlay {
+  .fleet-img3:hover .text-overlay3 {
     opacity: 1;
     
   }
@@ -69,12 +70,12 @@
 }
 
 .fleet-img3 img:nth-child(2) {
-    height: 207px;
-    width: 437px;
+    height: 250px;
+    width: 700px;
     position: absolute;
     object-fit: cover;
-    left: 0;
-    top: 128px;
+    left: 30px;
+    top: 34%;
     /* transition: transform .5s ease; */
 }
 
@@ -84,7 +85,7 @@
 
 .top-stroke3 {
     position: absolute;
-    height: 13px;
+    height: 20px;
     top: 0;
     left: 50%;
     background-color: white;
@@ -94,9 +95,9 @@
 
 .top-left-stroke3 {
     position: absolute;
-    height: 13px;
-    left: 65px;
-    top: 65px;
+    height: 18px;
+    left: 112px;
+    top: 112px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -105,9 +106,9 @@
 
 .top-right-stroke3 {
     position: absolute;
-    height: 13px;
-    right: 65px;
-    top: 65px;
+    height: 20px;
+    right: 112px;
+    top: 112px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -116,9 +117,9 @@
 
 .bottom-left-stroke3 {
     position: absolute;
-    height: 13px;
-    left: 65px;
-    bottom: 65px;
+    height: 20px;
+    left: 112px;
+    bottom: 112px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -127,9 +128,9 @@
 
 .bottom-right-stroke3 {
     position: absolute;
-    height: 13px;
-    right: 65px;
-    bottom: 65px;
+    height: 20px;
+    right: 112px;
+    bottom: 112px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -138,7 +139,7 @@
 
 .bottom-stroke3 {
     position: absolute;
-    height: 13px;
+    height: 20px;
     left: 50%;
     bottom: 0;
     background-color: white;
@@ -148,9 +149,9 @@
 
 .left-stroke3 {
     position: absolute;
-    height: 13px;
+    height: 20px;
     top: 50%;
-    left: 6px;
+    left: 10px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -159,9 +160,9 @@
 
 .right-stroke3 {
     position: absolute;
-    height: 13px;
+    height: 20px;
     top: 50%;
-    right: 6px;
+    right: 10px;
     background-color: white;
     width: 0;
     border: 1px solid white;
@@ -172,49 +173,62 @@
     margin-left: 56px;
 }
 
-.fleet-card3 {
-    position: absolute;
-    top: 746px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.fleet-context3 {
-    width: 443px;
+.fleet-context6 {
+    width: 450px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
-    line-height: 1.2;
+    top: 24%; 
+    left: -5.5%;
+    text-align: right;
 }
 
-.fleet-context3:nth-child(n+2) {
-    margin-left: 56px;
-}
-
-.second-p3 {
-    margin-top: 32px;
+.second-p6 {
+    margin-top: 38px;
     margin-left: 18px;
-    line-height: 1.4;
+    line-height: 1; 
+    letter-spacing: 1px;
 }
 
-.second-p3 p:nth-child(2) {
-    margin-top: 6px;
+.second2-p6 {
+    margin-top: 38px;
+    margin-left: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.second-p6 p{
+    font-size: 19px;
+    color: #f8f8ff;
+    font-weight: lighter;
 }
 
-.blue-line3 {
+.second2-p6 p{
+    font-size: 19px;
+    color: #f8f8ff;
+    font-weight: lighter;
+}
+.second-p6 p span{
+    font-size:38px;
+    color: #ffff;
+    font-weight: 500;
+    font-family: 'Optima-B';
+}
+
+.second2-p6 p:nth-child(1) {
+    font-size: 20px;
+}
+
+.blue-line6 {
     position: absolute;
-    left: 90px;
-    top: 12px;
-    height: 209px;
+    top: 63px;
+    height: 232px;
     background-color: #0A505F;
     width: 1px;
+    left: 104%;
 }
 
-.circle-top3{
+.circle2-1{
     position: absolute;
     left: -4px;
     top: -5px;
@@ -224,17 +238,16 @@
     background-color: #0A505F;
 }
 
-.circle-mid3{
+.circle2-2{
     position: absolute;
     left: -4px;
-    top: 65px;
+    top: 82px;
     height: 9px;
     width: 9px;
     border-radius: 50%;
     background-color: #0A505F;
 }
-
-.circle-bottom3{
+.circle2-3{
     position: absolute;
     left: -4px;
     bottom: -5px;
@@ -244,67 +257,636 @@
     background-color: #0A505F;
 }
 
-.fleetHeight3 {
+.fleetHeight6 {
     height: 100vh;
     margin-bottom: 126px;
 }
 
+.fleet-context5 {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 21%; 
+    left: 4.5%;
+  
+}
+
+.second-p5 {
+    margin-top: 38px;
+    margin-left: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.second-p5 p{
+    font-size: 19px;
+    color: #f8f8ff;
+}
+.second-p5 p span{
+    font-size:24px;
+    color: #ffff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.second-p5 p:nth-child(2) {
+    margin-top: 6px;
+}
+
+.blue-line5 {
+    position: absolute;
+    top: 55px;
+    height: 320px;
+    background-color: #0A505F;
+    width: 1px;
+}
+
+.circle-1{
+    position: absolute;
+    left: -4px;
+    top: -5px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+
+.circle-2{
+    position: absolute;
+    left: -4px;
+    top: 80px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+.circle-3{
+    position: absolute;
+    left: -4px;
+    top: 167px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+.circle-4{
+    position: absolute;
+    left: -4px;
+    top: 250px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+.circle-5{
+    position: absolute;
+    left: -4px;
+    bottom: -5px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #0A505F;
+}
+
+.fleetHeight5 {
+    height: 100vh;
+    margin-bottom: 126px;
+}
+
+@media (min-width: 1600px) and (max-width: 1919px){
+    .fleet-content3 {
+        height: 650px;
+        top: 150px;
+    }
+    .fleet-container3{
+        width: 650px;       
+    }       
+    .fleet-img3 img:nth-child(2) {
+        height: 200px;
+        width: 600px;
+    } 
+    .top-stroke3 {
+        height: 17px;
+        top: 0;
+        left: 50%;
+    }
+    
+    .top-left-stroke3 {
+        height: 17px;
+        left: 96px;
+        top: 96px;
+    }
+    
+    .top-right-stroke3 {
+        height: 17px;
+        right: 96px;
+        top: 96px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 17px;
+        left: 96px;
+        bottom: 96px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 17px;
+        right: 96px;
+        bottom: 96px;
+    }
+    
+    .bottom-stroke3 {
+        height: 17px;
+        left: 50%;
+        bottom: 0;
+    }
+    
+    .left-stroke3 {
+        height: 20px;
+        top: 50%;
+        left: 10px;
+    }
+    
+    .right-stroke3 {
+        height: 20px;
+        top: 50%;
+        right: 10px;
+    }
+  
+    .fleet-context6 {
+        top: 24%; 
+    }
+
+    .second-p6 p{
+        font-size: 17px;
+    }
+    
+    .second2-p6 p{
+        font-size: 17px;
+    }
+
+    .second-p6 p span{
+        font-size:36px;
+    }
+    
+    .second2-p6 p:nth-child(1) {
+        font-size: 18px;
+    }
+    
+    .blue-line6 {
+        height: 207px;
+    }
+
+    .circle2-2{
+        top: 70px;
+    }
+   
+    .fleet-context5 {
+        top: 19%; 
+    }
+    
+    .second-p5 p{
+        font-size: 17px;
+    }
+
+    .second-p5 p span{
+        font-size:20px;
+    }
+    
+    .blue-line5 {
+        top: 50px;
+        height: 295px;
+    }
+    
+    .circle-2{
+        top: 75px;
+    }
+    .circle-3{
+        top: 155px;
+    }
+    .circle-4{
+        top: 232px;
+    }   
+}
+@media (min-width: 1367px) and (max-width: 1599px){
+    .fleet-content3 {
+        height: 550px;
+        top: 140px;
+    }
+    .fleet-container3{
+        width: 550px;       
+    }       
+    .fleet-img3 img:nth-child(2) {
+        height: 200px;
+        width: 500px;
+    } 
+    .top-stroke3 {
+        height: 15px;
+        top: 0;
+        left: 50%;
+    }
+    
+    .top-left-stroke3 {
+        height: 15px;
+        left: 81px;
+        top: 81px;
+    }
+    
+    .top-right-stroke3 {
+        height: 15px;
+        right: 81px;
+        top: 81px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 15px;
+        left: 81px;
+        bottom: 81px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 15px;
+        right: 81px;
+        bottom: 81px;
+    }
+    
+    .bottom-stroke3 {
+        height: 15px;
+        left: 50%;
+        bottom: -2px;
+    }
+    
+    .left-stroke3 {
+        height: 15px;
+        top: 50%;
+        left: 7px;
+    }
+    
+    .right-stroke3 {
+        height: 15px;
+        top: 50%;
+        right: 7px;
+    }
+  
+    .fleet-context6 {
+        top: 25%; 
+    }
+
+    .second-p6 p{
+        font-size: 15px;
+    }
+    
+    .second2-p6 p{
+        font-size: 15px;
+    }
+
+    .second-p6 p span{
+        font-size:32px;
+    }
+    
+    .second2-p6 p:nth-child(1) {
+        font-size: 18px;
+    }
+    
+    .blue-line6 {
+        height: 190px;
+        top:60px;
+    }
+
+    .circle2-2{
+        top: 70px;
+    }
+   
+    .fleet-context5 {
+         top: 17%; 
+    }
+    
+    .second-p5 p{
+        font-size: 15px;
+    }
+
+    .second-p5 p span{
+        font-size:17px;
+    }
+    
+    .blue-line5 {
+        top: 50px;
+        height: 278px;
+    }
+    
+    .circle-2{
+        top: 70px;
+    }
+    .circle-3{
+        top: 145px;
+    }
+    .circle-4{
+        top: 218px;
+    }   
+}
+
+@media (min-width: 768px) and (max-width: 1366px){
+    .fleet-content3 {
+        height: 430px;
+        top: 160px;
+    }
+    .fleet-container3{
+        width: 500px;       
+    }       
+    .fleet-img3 img:nth-child(2) {
+        height: 150px;
+        width: 400px;
+        left: 20px;
+    } 
+    .top-stroke3 {
+        height: 12px;
+        top: 0;
+        left: 50%;
+    }
+    
+    .top-left-stroke3 {
+        height: 12px;
+        left: 63px;
+        top: 63px;
+    }
+    
+    .top-right-stroke3 {
+        height: 12px;
+        right: 63px;
+        top: 63px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 12px;
+        left: 63px;
+        bottom: 63px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 12px;
+        right: 63px;
+        bottom: 63px;
+    }
+    
+    .bottom-stroke3 {
+        height: 12px;
+        left: 50%;
+        bottom: -2px;
+    }
+    
+    .left-stroke3 {
+        height: 12px;
+        top: 50%;
+        left: 6px;
+    }
+    
+    .right-stroke3 {
+        height: 12px;
+        top: 50%;
+        right: 6px;
+    }
+  
+    .fleet-context6 {
+        top: 19%; 
+    }
+
+    .second-p6 p{
+        font-size: 13px;
+    }
+    
+    .second2-p6 p{
+        font-size: 13px;
+    }
+
+    .second-p6 p span{
+        font-size:27px;
+    }
+    
+    .second2-p6 {
+        margin-top: 25px;
+    }
+
+    .second2-p6 p:nth-child(1) {
+        font-size: 15px;
+    }
+    
+    .blue-line6 {
+        height: 160px;
+        top:65px;
+    }
+
+    .circle2-2{
+        top: 55px;
+    }
+   
+    .fleet-context5 {
+         top: 18%; 
+    }
+    
+    .second-p5{
+        margin-top: 25px;
+    }
+
+    .second-p5 p{
+        font-size: 13px;
+    }
+
+    .second-p5 p span{
+        font-size:15px;
+    }
+
+    .blue-line5 {
+        top: 35px;
+        height: 215px;
+    }
+    
+    .circle-2{
+        top: 55px;
+    }
+
+    .circle-3{
+        top: 115px;
+    }
+
+    .circle-4{
+        top: 167px;
+    }   
+}
+/*
+@media (min-width: 1366px) {
+    .fleet-content3 {
+        height: 346px;
+        top: 204px;
+    }
+    
+    .fleet-img3 {
+        width: 346px;
+    }
+    
+    .overlay3{
+        width: 346px;
+    }
+    
+    .fleet-img3 img:nth-child(2) {
+        height: 162px;
+        width: 341px;
+        top: 100px;
+    }
+    
+    .top-stroke3 {
+        height: 9px;
+    }
+    
+    .top-left-stroke3 {
+        height: 9px;
+        left: 51px;
+        top: 51px;
+    }
+    
+    .top-right-stroke3 {
+        height: 10px;
+        right: 51px;
+        top: 51px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 9px;
+        left: 51px;
+        bottom: 51px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 9px;
+        right: 51px;
+        bottom: 51px;
+    }
+    
+    .bottom-stroke3 {
+        height: 9px;
+    }
+    
+    .left-stroke3 {
+        height: 9px;
+        left: 5px;
+    }
+    
+    .right-stroke3 {
+        height: 9px;
+        right: 5px;
+    }
+    
+    .fleet-img3:nth-child(n+2) {
+        margin-left: 44px;
+    }
+    
+    .fleet-card3 {
+        top: 583px;
+    }
+    
+    .fleet-context3 {
+        width: 346px;
+    }
+    
+    
+    .second-p3 {
+        margin-top: 25px;
+
+    }
+    
+    .second-p3 p:nth-child(2) {
+        margin-top: 5px;
+    }
+    
+    .blue-line3 {
+        left: 79px;
+        top: 9px;
+        height: 163px;
+    }
+    
+    .circle-top3 {
+        left: -3px;
+        top: -4px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-mid3 {
+        left: -3px;
+        top: 53px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-bottom3 {
+        left: -3px;
+        bottom: -3px;
+        height: 6px;
+        width: 6px;
+    }
+    .explore-marg {
+        height: 80vh;
+        margin-bottom: 150px;
+    }
+}
 
 
 @media (min-width: 1920px) {
     .fleet-content3 {
-        height: 700px;
-        top: 261px;
+        height: 650px;
+        top: 200px;
     }
     
     .fleet-img3 {
-        width: 700px;
+        width: 650px;
     }
     
-    .overlay3{
-        width: 700px;
+    .overlay3 {
+        width: 650px;
     }
     
     .fleet-img3 img:nth-child(2) {
-        height: 207px;
-        width: 437px;
-        top: 128px;
+        height: 250px;
+        width: 600px;
+        top: 210px;
+        left: 40px;
     }
     
     .top-stroke3 {
-        height: 13px;
+        height: 20px;
     }
     
     .top-left-stroke3 {
-        height: 13px;
-        left: 65px;
-        top: 65px;
+        height: 20px;
+        left: 95px;
+        top: 95px;
     }
     
     .top-right-stroke3 {
-        height: 13px;
-        right: 65px;
-        top: 65px;
+        height: 20px;
+        right: 95px;
+        top: 95px;
     }
     
     .bottom-left-stroke3 {
-        height: 13px;
-        left: 65px;
-        bottom: 65px;
+        height: 20px;
+        left: 95px;
+        bottom: 95px;
     }
     
     .bottom-right-stroke3 {
-        height: 13px;
-        right: 65px;
-        bottom: 65px;
+        height: 20px;
+        right: 95px;
+        bottom: 95px;
     }
     
     .bottom-stroke3 {
-        height: 13px;
+        height: 20px;
     }
     
     .left-stroke3 {
-        height: 13px;
+        height: 20px;
         left: 6px;
     }
     
@@ -320,22 +902,20 @@
     .fleet-card3 {
         top: 746px;
     }
-        
+  
     .fleet-context3 {
         width: 443px;
     }
     
-    .fleet-context3:nth-child(n+2) {
-        margin-left: 56px;
-    }
+
     
     .second-p3 {
-        margin-top: 32px;
-        margin-left: 18px;
+        margin-top: 5px;
+
     }
     
     .second-p3 p:nth-child(2) {
-        margin-top: 6px;
+        margin-top: 2px;
     }
     
     .blue-line3 {
@@ -367,7 +947,148 @@
 
     .explore-marg {
         height: 80vh;
-        margin-bottom: 240px;
+        margin-bottom: 250px;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1360px){
+    .fleet-content3 {
+        height: 300px;
+        top: 250px;
+    }
+    .fleet-container3{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+    margin: 0px 40px;
+    width: 300px; 
+    }
+    .fleet-img3 {
+        width: 300px;
+    }
+    
+    .overlay3{
+        width: 300px;
+    }
+    
+    .fleet-img3 img:nth-child(2) {
+        height: 100px;
+        width: 300px;
+        top: 100px;
+    }
+    
+    .top-stroke3 {
+        height: 8px;
+    }
+    
+    .top-left-stroke3 {
+        height: 8px;
+        left: 44px;
+        top: 44px;
+    }
+    
+    .top-right-stroke3 {
+        height: 8px;
+        right: 44px;
+        top: 44px;
+    }
+    
+    .bottom-left-stroke3 {
+        height: 8px;
+        left: 44px;
+        bottom: 44px;
+    }
+    
+    .bottom-right-stroke3 {
+        height: 8px;
+        right: 44px;
+        bottom: 44px;
+    }
+    
+    .bottom-stroke3 {
+        height: 8px;
+    }
+    
+    .left-stroke3 {
+        height: 9px;
+        left: 5px;
+    }
+    
+    .right-stroke3 {
+        height: 9px;
+        right: 5px;
+    }
+    
+    .fleet-img3:nth-child(n+2) {
+        margin-left: 44px;
+    }
+    
+    .fleet-card3 {
+        top: 583px;
+    }
+    
+    .fleet-context3 {
+        width: 346px;
+    }
+    
+
+    .second-p3 {
+        margin-top: 25px;
+
+    }
+    
+    .second-p3 p:nth-child(2) {
+        margin-top: 5px;
+    }
+    
+    .blue-line3 {
+        left: 79px;
+        top: 9px;
+        height: 163px;
+    }
+    
+    .circle-top3{
+        left: -3px;
+        top: -4px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-mid3{
+        left: -3px;
+        top: 53px;
+        height: 6px;
+        width: 6px;
+    }
+    
+    .circle-bottom3{
+        left: -3px;
+        bottom: -3px;
+        height: 6px;
+        width: 6px;
+    }
+    .text-overlay3 {
+        position: absolute;
+        top: 87%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.3s ease;
+        opacity:0;
+        font-family: 'Avenir Book';
+        font-size: 11px;
+      
+      }
+      
+      .fleet-img3:hover .text-overlay3 {
+        opacity: 1;
+        
+      }
+
+      .fleet-context3 p{
+          font-size: 14px;
+      }
+      .explore-marg {
+        height: 80vh;
+        margin-bottom: 80px;
+        }
+    }*/

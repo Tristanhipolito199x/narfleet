@@ -10,7 +10,6 @@ const FleetBanner = () => {
             <div className="fleetBanner-container">
 
             </div>
-            
             <div className="logos">
                 <img src={upLogo} alt="sample"/>
                 <img src={msiLogo} alt="sample"/>

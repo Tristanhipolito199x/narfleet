@@ -1,10 +1,11 @@
 import './StationsContent.css'
-
+import map from '../../../assets/Photos/station/map.png'
 const AboutContent2 = () => {
     return (
 
         <div className="station-container">
             <div className=" line"></div>
+            <img src={map} alt="map"className="map"/>
             <div className='aboutCard'>
                 <div className='aboutContent-card2-1'>
                     <div className="padding-about-card2">

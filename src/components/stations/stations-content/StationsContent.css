@@ -70,3 +70,11 @@
      width: 950px;
     margin-top: 50px;
 }
+
+.map{
+    width: 550px;
+    height: 900px;
+    position:  absolute;
+    left: 70rem;
+    top: -100px;
+}

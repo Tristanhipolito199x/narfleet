@@ -29,7 +29,7 @@ const FleetContent = () => {
                 </div>
                 <div className="fleet-container">
                     <div className="fleet-img">
-                        <a href="#">
+                        <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
                             <img src={ship} alt="Kasarinlan" />
                             <div className="overlay"></div>
@@ -41,13 +41,13 @@ const FleetContent = () => {
                             <div className="top-right-stroke"></div>
                             <div className="bottom-left-stroke"></div>
                             <div className="bottom-right-stroke"></div>
-                        </a>
+                        </NavLink>
                         <div className="text-overlay">TRACK</div>  
                     </div>
                 </div>
                 <div className="fleet-container">
                     <div className="fleet-img">
-                        <a href="#">
+                        <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
                             <img src={ship} alt="Kasarinlan" />
                             <div className="overlay"></div>
@@ -59,12 +59,11 @@ const FleetContent = () => {
                             <div className="top-right-stroke"></div>
                             <div className="bottom-left-stroke"></div>
                             <div className="bottom-right-stroke"></div>
-                        </a>
+                        </NavLink>
                         <div className="text-overlay">TRACK</div>  
                     </div>
                 </div>
             </div>
-
             <div className="fleet-card">
                 <div className="fleet-context">
                     <p className="Avenir-black">RV PANATA</p>
@@ -128,10 +127,10 @@ const FleetContent = () => {
             </div>
 
 
-            <div className="fleet-content2">
-            <div className="fleet-container">
+           <div className="fleet-content2">
+                 <div className="fleet-container">
                     <div className="fleet-img">
-                        <a href="#">
+                        <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
                             <img src={ship} alt="Kasarinlan" />
                             <div className="overlay"></div>
@@ -143,13 +142,13 @@ const FleetContent = () => {
                             <div className="top-right-stroke"></div>
                             <div className="bottom-left-stroke"></div>
                             <div className="bottom-right-stroke"></div>
-                        </a>
+                        </NavLink>
                         <div className="text-overlay">TRACK</div>  
                     </div>
                 </div>
                 <div className="fleet-container">
                     <div className="fleet-img">
-                        <a href="#">
+                        <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
                             <img src={ship} alt="Kasarinlan" />
                             <div className="overlay"></div>
@@ -161,13 +160,13 @@ const FleetContent = () => {
                             <div className="top-right-stroke"></div>
                             <div className="bottom-left-stroke"></div>
                             <div className="bottom-right-stroke"></div>
-                        </a>
+                        </NavLink>
                         <div className="text-overlay">TRACK</div>  
                     </div>
                 </div>
                 <div className="fleet-container">
                     <div className="fleet-img">
-                        <a href="#">
+                        <NavLink exact to="/the-fleet/fleet-subpage"  activeClassName="active">
                             <img src={ocean} alt="Ocean" style={{top:'20px'}}/>
                             <img src={ship} alt="Kasarinlan" />
                             <div className="overlay"></div>
@@ -179,7 +178,7 @@ const FleetContent = () => {
                             <div className="top-right-stroke"></div>
                             <div className="bottom-left-stroke"></div>
                             <div className="bottom-right-stroke"></div>
-                        </a>
+                        </NavLink>
                         <div className="text-overlay">TRACK</div>  
                     </div>
                 </div>

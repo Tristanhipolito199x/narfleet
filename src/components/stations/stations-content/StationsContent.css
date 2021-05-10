@@ -17,7 +17,7 @@
 }
 
 .aboutContent-card2-1 {
-    height: 300px;
+    height: 320px;
     border-radius: 5px;
     margin-top: 25px;
     width: 950px;
@@ -49,6 +49,7 @@
 .padding-about-card2 p ul:nth-child(1){
     list-style-type: disc;
     line-height: 20px;
+    font-weight: 500;
 }
 
 .padding-about-card2 p span{
@@ -72,7 +73,7 @@
 }
 
 .map{
-    width: 550px;
+    width: 500px;
     height: 900px;
     position:  absolute;
     left: 70rem;

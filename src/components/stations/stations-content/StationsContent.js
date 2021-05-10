@@ -2,34 +2,50 @@ import './StationsContent.css'
 
 const AboutContent2 = () => {
     return (
+
         <div className="station-container">
             <div className=" line"></div>
             <div className='aboutCard'>
                 <div className='aboutContent-card2-1'>
                     <div className="padding-about-card2">
-                        <p className="Avenir-medium">Home port and Berthing</p>
-                        <p className="Avenir-light"> Eiusmod occaecat ullamco quis incididunt. Est proident ex eiusmod aute ad eiusmod pariatur. In cupidatat laborum minim culpa mollit anim ad ad. Exercitation ex aute Lorem voluptate enim duis culpa et cillum. Consequat adipisicing qui aute consectetur officia amet duis Lorem. Incididunt nulla exercitation labore commodo eiusmod ipsum consequat ut commodo. </p>
+                        <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
+                            <span className="Avenir-light">RV Panata </span>
+                        </p>
+                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
                     </div>
                 </div>
                 <div className='aboutContent-card2-1'>
                     <div className="padding-about-card2">
-                        <p className="Avenir-medium">Home port and Berthing</p>
-                        <p className="Avenir-light"> Eiusmod occaecat ullamco quis incididunt. Est proident ex eiusmod aute ad eiusmod pariatur. In cupidatat laborum minim culpa mollit anim ad ad. Exercitation ex aute Lorem voluptate enim duis culpa et cillum. Consequat adipisicing qui aute consectetur officia amet duis Lorem. Incididunt nulla exercitation labore commodo eiusmod ipsum consequat ut commodo. </p>
+                        <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
+                            <span className="Avenir-light">RV Panata </span>
+                        </p>
+                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
                     </div>
                 </div>
                 <div className='aboutContent-card2-1'>
                     <div className="padding-about-card2">
-                        <p className="Avenir-medium">Home port and Berthing</p>
-                        <p className="Avenir-light"> Eiusmod occaecat ullamco quis incididunt. Est proident ex eiusmod aute ad eiusmod pariatur. In cupidatat laborum minim culpa mollit anim ad ad. Exercitation ex aute Lorem voluptate enim duis culpa et cillum. Consequat adipisicing qui aute consectetur officia amet duis Lorem. Incididunt nulla exercitation labore commodo eiusmod ipsum consequat ut commodo. </p>
+                        <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
+                            <span className="Avenir-light">RV Panata </span>
+                        </p>
+                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
                     </div>
                 </div>
                 <div className='aboutContent-card2-1'>
                     <div className="padding-about-card2">
-                        <p className="Avenir-medium">Home port and Berthing</p>
-                        <p className="Avenir-light"> Eiusmod occaecat ullamco quis incididunt. Est proident ex eiusmod aute ad eiusmod pariatur. In cupidatat laborum minim culpa mollit anim ad ad. Exercitation ex aute Lorem voluptate enim duis culpa et cillum. Consequat adipisicing qui aute consectetur officia amet duis Lorem. Incididunt nulla exercitation labore commodo eiusmod ipsum consequat ut commodo. </p>
+                        <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
+                            <span className="Avenir-light">RV Panata </span>
+                        </p>
+                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
                     </div>
                 </div>
-
+                <div className='aboutContent-card2-1'>
+                    <div className="padding-about-card2">
+                        <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
+                            <span className="Avenir-light">RV Panata </span>
+                        </p>
+                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

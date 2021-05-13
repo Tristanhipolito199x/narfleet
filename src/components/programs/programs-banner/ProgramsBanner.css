@@ -1,0 +1,105 @@
+.programs-banner {
+    height: 575px;
+    width: 100%;
+    background-image: url(../../../assets/Photos/programs//01-banner-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 80%;
+    border-radius: 0 0 500px 0;
+}
+
+.programs-logos{
+    padding-top: 166px;
+    margin-left: 102px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+}
+
+.programs-logos img {
+    width: 100%;
+    height: 100%;
+}
+
+.programs-logos img:nth-child(n+2){
+    margin-left: 7px;
+}
+
+.programs-title{
+    font-size: 49px;
+    text-transform: uppercase;
+    margin-left: 102px;
+    margin-top: 20px;
+}
+
+.programs-bannerText {
+    margin-top: 10px;
+    width: 980px;
+    margin-left: 102px;
+    line-height: 1.45;
+    text-shadow: 10px 10px 10px #00000029;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    font-style: oblique;
+}
+
+@media  (min-width: 1366px){
+    .programs-banner {
+        height: 449px;
+        border-radius: 0 0 361px 0;
+    }
+    
+    .programs-logos{
+        padding-top: 130px;
+        margin-left: 80px;
+        height: 62.5px;
+        width: 63px;
+    }
+    
+    .programs-logos img:nth-child(n+2){
+        margin-left: 5px;
+    }
+    
+    .programs-title{
+        font-size: 38px;
+        margin-left: 80px;
+        margin-top: 8px;
+    }
+    
+    .programs-bannerText {
+        margin-top: 8px;
+        width: 668px;
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .programs-banner {
+        height: 575px;
+        border-radius: 0 0 500px 0;
+    }
+    
+    .programs-logos{
+        margin-left: 102px;
+        height: 90px;
+        width: 90px;
+    }
+    
+    .programs-logos img:nth-child(n+2){
+        margin-left: 7px;
+    }
+    
+    .programs-title{
+        font-size: 49px;
+        margin-left: 102px;
+        margin-top: 20px;
+    }
+    
+    .programs-bannerText {
+        margin-top: 10px;
+        width: 980px;
+        margin-left: 102px;
+        font-size: 19px;
+        font-weight: 100;
+    }
+}

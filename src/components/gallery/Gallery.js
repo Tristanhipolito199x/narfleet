@@ -1,6 +1,7 @@
 import GalleryBanner from "./gallery-banner/GalleryBanner"
-import ExploreNext4 from './explore-next4/ExploreNext4'
-import CarouselGallery from './carousel/Carousel'
+import GalleryCarousel from './gallery-carousel/GalleryCarousel'
+import GalleryExplore from './gallery-explore/GalleryExplorer'
+
 
 
 
@@ -9,8 +10,8 @@ const Gallery = () => {
     return (
         <div>
             <GalleryBanner />
-            <CarouselGallery />  
-            <ExploreNext4 />
+            <GalleryCarousel />  
+            <GalleryExplore />
         </div>
     )
 }

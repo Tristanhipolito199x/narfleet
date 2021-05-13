@@ -1,13 +1,13 @@
-import ExploreNext3 from "./explore-next3/ExploreNext3"
-import ProgramsBanner from "./program-banner/ProgramsBanner"
+import ProgramsBanner from "./programs-banner/ProgramsBanner"
 import ProgramsContent from "./programs-content/ProgramsContent"
+import ProgramsExplore from "./programs-explore/ProgramsExplore"
 
 const Programs = () => {
     return (
         <div>
             <ProgramsBanner />
             <ProgramsContent />
-            <ExploreNext3 />
+            <ProgramsExplore />
         </div>
     )
 }

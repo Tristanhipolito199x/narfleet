@@ -12,7 +12,7 @@ const AboutContent2 = () => {
                         <p className="Avenir-medium"><ul> <li>PUERTO GALLERA STATION</li></ul>
                             <span className="Avenir-light">RV Panata </span>
                         </p>
-                        <p className="Avenir-light"> Incididunt veniam consequat Lorem enim qui aute aliquip cillum nostrud aute eiusmod ea eiusmod et. Ullamco mollit pariatur irure laborum dolor nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore. </p>
+                        <p className="Avenir-light">nostrud ex. Laborum ex veniam cillum aliquip aliqua excepteur occaecat ut. Consectetur amet ex commodo laboris laborum. Est veniam laborum nisi labore voluptate ipsum fugiat quis. Ea deserunt minim cillum in reprehenderit sunt laboris cillum officia. Amet elit duis excepteur aliquip id mollit eiusmod occaecat commodo sint non labore.  </p>
                     </div>
                 </div>
                 <div className='aboutContent-card2-1'>

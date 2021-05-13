@@ -1,0 +1,139 @@
+.explore-next2 {
+    height: 413px;
+    border-radius: 0 450px 0 0;
+    background-color: rgba(10, 80, 95, .3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-box2 {
+    width: 1307px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-next2 img {
+    height: 299px;
+    width: 535px;
+    object-fit: cover;
+    background-color: #5A7634;
+}
+
+.bg-cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.explore-next2 .bg-img2{
+    position: absolute;
+    margin-right: 535px;
+    z-index: -1;
+    margin-top: -150px;
+    height: 299px;
+    width: 535px;
+    background-color: #5A7634;
+}
+
+.explore-next2 img{
+    transition: 0.3s;
+}
+
+.explore-next2 img:hover {
+    margin-right: 9px;
+    margin-bottom: 15px;
+}
+
+
+
+.navi-title2 {
+    color: white;
+    font-size: 31px;
+    margin-left: 94px;
+}
+
+.next-icon2 {
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.explore-next-content2 {
+    line-height: 1.4;
+    width: 678px;
+    margin-left: 94px;
+    margin-top: 28px;
+}
+
+@media (min-width: 768px) and (max-width: 1364px){
+    .explore-next2 {
+        height: 413px;
+        border-radius: 0 450px 0 0;
+        background-color: rgba(10, 80, 95, .3);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+    }
+    
+    .explore-box2 {
+        width: 1307px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .explore-next2 img {
+        height: 299px;
+        width: 535px;
+        object-fit: cover;
+        background-color: #5A7634;
+    }
+    
+    .bg-cont2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .explore-next2 .bg-img2{
+        position: absolute;
+        margin-right: 535px;
+        z-index: -1;
+        margin-top: -150px;
+        height: 299px;
+        width: 535px;
+        background-color: #5A7634;
+    }
+    
+    .explore-next2 img{
+        transition: 0.3s;
+    }
+    
+    .explore-next2 img:hover {
+        margin-right: 9px;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    .navi-title2 {
+        color: white;
+        font-size: 31px;
+        margin-left: 94px;
+    }
+    
+    .next-icon2 {
+        font-size: 50px;
+        margin-bottom: -15px;
+    }
+    
+    .explore-next-content2 {
+        line-height: 1.4;
+        width: 678px;
+        margin-left: 94px;
+    }
+}

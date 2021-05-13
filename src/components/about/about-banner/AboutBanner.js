@@ -10,12 +10,9 @@ const AboutBanner = () => {
                 <img src={upLogo} alt="sample"/>
                 <img src={msiLogo} alt="sample"/>
                 <img src={nslLogo} alt="sample"/>
-            </div>
-
-            
+            </div>  
             <p className="about-title Optima-B">About Narfleet</p>
-
-            <p className="Avenir-oblique about-bannerText">In response to the need to improve capacity for ocean research and assist the government in science-based management of our marine resources, the National Security Council granted the request OF UP MSI to establish and develop the country’s National Academic Research Fleet (NARFleet). The NARFleet will be a group of vessels dedicated to Marine Scientific Research (MSR) initiatives of the country.</p>
+            <p className="Avenir-light about-bannerText">In response to the need to improve capacity for ocean research and assist the government in science-based management of our marine resources, the National Security Council granted the request OF UP MSI to establish and develop the country’s National Academic Research Fleet (NARFleet). The NARFleet will be a group of vessels dedicated to Marine Scientific Research (MSR) initiatives of the country.</p>
         </div>
     )
 }

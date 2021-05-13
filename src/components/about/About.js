@@ -1,7 +1,7 @@
 import AboutBanner from "./about-banner/AboutBanner"
 import AboutContent from "./about-content/AboutContent"
 import AboutSearch from "./about-search/AboutSearch"
-import ExploreNext from "./explore-next/ExploreNext"
+import AboutExplore from "./about-explore/AboutExplore"
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <AboutBanner />
             <AboutSearch />
             <AboutContent />
-            <ExploreNext />
+            <AboutExplore />
         </div>
     )
 }

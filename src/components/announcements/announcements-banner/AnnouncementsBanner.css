@@ -1,0 +1,23 @@
+.announcements-banner {
+    height: 579px;
+    background-image: url(../../../assets/Photos/announcements/01-banner-full.png);
+    background-position: 30% 30%;
+    border-radius: 0 0 500px 0;
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1366px) {
+    .announcements-banner {
+        height: 452px;
+        border-radius: 0 0 391px 0;
+    }
+}
+
+@media (min-width: 1920px) {
+    .announcements-banner {
+        height: 579px;
+        border-radius: 0 0 500px 0;
+    }
+}

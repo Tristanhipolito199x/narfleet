@@ -1,82 +1,56 @@
-.aboutContent-card-1 {
-    height: 447px;
+
+.about-container{
+    width: 61%;
+    margin: auto;
+ 
+}
+
+.about-card{
+    background-color: #FFFFFF1A;
+    padding: 20px 55px 55px 55px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 50px;
+}
+
+.about-card:first-child{
     margin-top: 140px;
-    width: 1043px;
-    background-color: #FFFFFF1A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.aboutContent-card-2 {
-    height: 286px;
-    border-radius: 5px;
-    margin-top: 40px;
-    width: 1043px;
-    background-color: #FFFFFF1A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-card p{
+    font-size: 20px;
+    color: #f8f8ff;
 }
 
-.aboutContent-card-3 {
-    height: 311px;
-    border-radius: 5px;
-    margin-top: 40px;
-    width: 1043px;
-    background-color: #FFFFFF1A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-card p:nth-child(1){
+    font-size: 32px;
+    font-weight: 500;
 }
 
-.aboutContent-card-4 {
-    height: 359px;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-bottom: 51px;
-    width: 1043px;
-    background-color: #FFFFFF1A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-card p:nth-child(-n+3){
+    margin-top: 30px;
 }
 
-.padding-about-card {
-    width: 920px;
-    text-align: left;
-    line-height: 1.4;
-}
-
-.padding-about-card p:nth-child(1){
-    font-size: 26px;
-    text-align: center;
-}
-
-.padding-about-card p:nth-child(2){
-    margin-top: 28px;
-}
-
-.padding-about-card p:nth-child(3){
-    margin-top: 23px;
+.carousel-container{
+    margin: auto;
+    width: 80%;
 }
 
 .carousel-card {
     height: 286px;
-    width: 1525px;
     margin-bottom: 125px;
     background-color: #FFFFFF1A;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
+    position: relative; 
 }
 
 .carousel-card img {
@@ -95,7 +69,7 @@
     background: none !important;
     color: #5A7634;
     position: relative;
-    
+    font-size: 40px;
     /* padding: 0 -550px; */
 }
 
@@ -120,50 +94,7 @@
 }
 
 @media (min-width: 1366px) {
-    .aboutContent-card-1 {
-        height: 349px;
-        border-radius: 4px;
-        margin-top: 109px;
-        width: 815px;
-    }
-    
-    .aboutContent-card-2 {
-        height: 223px;
-        border-radius: 4px;
-        margin-top: 31px;
-        width: 815px;
-    }
-    
-    .aboutContent-card-3 {
-        height: 243px;
-        border-radius: 4px;
-        margin-top: 31px;
-        width: 815px;
-    }
-    
-    .aboutContent-card-4 {
-        height: 280px;
-        border-radius: 4px;
-        margin-top: 31px;
-        margin-bottom: 40px;
-        width: 815px;
-    }
-    
-    .padding-about-card {
-        width: 719px;
-    }
-    
-    .padding-about-card p:nth-child(1){
-        font-size: 20px;
-    }
-    
-    .padding-about-card p:nth-child(2){
-        margin-top: 22px;
-    }
-    
-    .padding-about-card p:nth-child(3){
-        margin-top: 18px;
-    }
+
     
     .carousel-card {
         height: 223px;
@@ -183,50 +114,7 @@
 }
 
 @media (min-width: 1920px) {
-    .aboutContent-card-1 {
-        height: 447px;
-        border-radius: 5px;
-        margin-top: 140px;
-        width: 1043px;
-    }
-    
-    .aboutContent-card-2 {
-        height: 286px;
-        border-radius: 5px;
-        margin-top: 40px;
-        width: 1043px;
-    }
-    
-    .aboutContent-card-3 {
-        height: 311px;
-        border-radius: 5px;
-        margin-top: 40px;
-        width: 1043px;
-    }
-    
-    .aboutContent-card-4 {
-        height: 359px;
-        border-radius: 5px;
-        margin-top: 40px;
-        margin-bottom: 51px;
-        width: 1043px;
-    }
-    
-    .padding-about-card {
-        width: 920px;
-    }
-    
-    .padding-about-card p:nth-child(1){
-        font-size: 26px;
-    }
-    
-    .padding-about-card p:nth-child(2){
-        margin-top: 28px;
-    }
-    
-    .padding-about-card p:nth-child(3){
-        margin-top: 23px;
-    }
+  
     
     .carousel-card {
         height: 286px;

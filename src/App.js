@@ -8,6 +8,7 @@ import About from './components/about/About';
 import Programs from './components/programs/Programs';
 import Stations from './components/stations/Stations';
 import Gallery from './components/gallery/Gallery';
+import Announcements from './components/announcements/Announcements';
 
 const App = () => {
   return (
@@ -45,6 +46,10 @@ const App = () => {
 
             <Route exact path="/gallery">
               <Gallery />
+            </Route>
+
+            <Route exact path="/announcements">
+              <Announcements />
             </Route>
 
           </Switch>

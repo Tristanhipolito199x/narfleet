@@ -16,56 +16,64 @@
     position: relative;
 }
 
-.left-image {
+.image-container {
     width: 575px;
     height: 322px;
     margin: 32px;
     overflow: hidden;
 }
 
-.left-image img {
+.image-container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: transform .5s ease;
 }
 
-.left-image img:hover{
+.image-container img:hover{
     transform: scale(1.1);
 }
 
-.programs-context {
-    margin-left: 52px;
+.program-details-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     font-family: 'Avenir Heavy';
     line-height: 1.2;
+    padding: 80px 40px 50px 50px;
 }
 
-.programs-title {
+p.title-content-programs {
+    line-height: 25px;
+}
+
+.program-details p{
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.program-details p:hover{
+    color: #5A7634;
+}
+
+.program-title {
     font-size: 27px;
 }
 
-.title-sub {
+.program-subtitle {
     font-size: 17px;
 }
 
-.green-color {
+.green-text {
     display: flex;
     flex-direction: column;
 }
 
-.green-color:hover {
-    color: #5A7634;
-    cursor: pointer;
-    
-}
 
 .title-content-programs {
     font-family: 'Avenir Light';
     width: 680px;
-    margin-top: 32px;
+    margin-top: 25px;
+    font-size: 18px;
 }
 
 .learn-more {
@@ -87,6 +95,7 @@
     margin-right: -125px;
 }
 
+/*
 @media (min-width: 1366px) {
     .programs-container {
         margin-bottom: 99px;
@@ -181,4 +190,4 @@
         margin-top: -88px;
         margin-right: -125px;
     }
-}
+}*/

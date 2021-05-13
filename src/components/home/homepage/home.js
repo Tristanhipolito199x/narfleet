@@ -1,10 +1,10 @@
-import Banner from '../banner/Banner'
+import HomeBanner from '../home-banner/HomeBanner'
 import HomeContent from '../homeContent/HomeContent'
 
 const home = () => {
     return (
         <div>
-            <Banner />
+            <HomeBanner />
             <HomeContent />       
         </div>
     )

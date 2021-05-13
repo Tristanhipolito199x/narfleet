@@ -7,6 +7,7 @@ import FleetSubPage from './components/fleet/fleet-subpage/Fleet-Subpage';
 import About from './components/about/About';
 import Programs from './components/programs/Programs';
 import Stations from './components/stations/Stations';
+import Gallery from './components/gallery/Gallery';
 
 const App = () => {
   return (
@@ -41,6 +42,11 @@ const App = () => {
             <Route exact path="/stations">
               <Stations />
             </Route>
+
+            <Route exact path="/gallery">
+              <Gallery />
+            </Route>
+
           </Switch>
         <Footer />
       </div>

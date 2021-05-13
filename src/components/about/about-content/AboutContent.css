@@ -71,16 +71,24 @@
     width: 1525px;
     margin-bottom: 125px;
     background-color: #FFFFFF1A;
-    border-radius: 5px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 }
 
 .carousel-card img {
     height: 251px;
     width: 446px;
     object-fit: cover;
+    border-radius: 5px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
 }
 
 .rec.rec-arrow {

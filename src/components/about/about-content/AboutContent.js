@@ -9,6 +9,9 @@ import gallery5 from '../../../assets/Photos/about/gallery-05.jpg'
 
 
 const AboutContent = () => {
+    const breakPoints = [
+        { width: 1700, itemsToShow: 3.23}
+      ];
     return (
         <div>
             <div style={{display: 'grid', justifyContent: 'center'}}>
@@ -42,9 +45,9 @@ const AboutContent = () => {
                 </div>
             </div>
 
-            <div style={{display: 'grid', justifyContent: 'center'}}>
-                <div className="carousel-card">
-                    <Carousel itemsToShow={3} pagination={false}>
+            <div style={{display: 'grid', justifyContent: 'center'}} >
+                <div className="carousel-card" >
+                    <Carousel itemsToShow={3} pagination={false} breakPoints={breakPoints}>
                         <img src={gallery1} alt="gallery-01"/>
                         <img src={gallery2} alt="gallery-02"/>
                         <img src={gallery3} alt="gallery-03"/>

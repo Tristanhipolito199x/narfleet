@@ -6,10 +6,6 @@ import './SubpageContent.css'
 
 const SubpageContent = () => {
 
-    const breakPoints = [
-        { width: 1700, itemsToShow: 3.23}
-    ];
-
     return (
         <div>
             <div style={{display: 'grid', justifyContent: 'center'}}>

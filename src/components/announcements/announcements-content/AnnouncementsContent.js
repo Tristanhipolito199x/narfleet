@@ -1,37 +1,45 @@
-import { AnnouncementsCard } from './AnnoncementContentModel'
-import AboutSearch from '../../about/about-search/AboutSearch'
+    import { AnnouncementsCard } from './AnnoncementContentModel'
+    import './AnnouncementContent.css'
+    import AboutSearch from '../../about/about-search/AboutSearch'
 
-const AnnouncementsContent = () => {
-     return (
-        <div>
-        <div className='programs-container-2'>
-            <div className="program-search">
-            <AboutSearch />
-            </div>
-            {AnnouncementsCard.map( (item, i) => (
-                <div key={`some-content${i}`} className="programs-content-2">
-                     <div className={item.background}>{item.status}</div>
-                    <div className="left-image-2">
-                        <img src={item.photo} alt='hopo wps' />
-                    </div>
+    import { NavLink } from 'react-router-dom'
 
-                    <div className="programs-context-2">
-                        <div className="green-color">
-                            <p className="green-color">
-                                <span className="programs-title-2">{item.title}
-                                </span> <span className="title-sub2">{item.subTitle}</span>
-                            </p>
-                        </div>
+    const AboutContent = () => {
 
-                        <p className="title-content-programs-2">{item.context}</p>
+        const breakPoints = [
+            { width: 1700, itemsToShow: 3.23}
+        ];
 
-                        <p className="learn-more-2 Avenir-light">LEARN MORE</p>
+        return (
+            <div>
+                <div style={{display: 'grid', justifyContent: 'center'}}>
+                <AboutSearch />
+                    <div className="about-container-1">
+                        {AnnouncementsCard.map((item, index) =>{
+                            return(
+                        
+                                <div key={index} className="about-card-1">
+                                    <div className={item.labelClass}>{item.label}</div>
+                                    <NavLink exact to={item.url} className="announcement-link">
+                                    <div className="announcement-image">
+                                        <img src={item.image} alt='hopo wps' />
+                                    </div>
+                            
+                                    <div className="about-card-text">
+                                        <p className="Avenir-medium"> {item.title} </p>
+                                        <p className="Avenir-light"> {item.p1} </p>
+                                        <p className="Avenir-light"> {item.p2} </p>
+                                        <p className="Avenir-light"> READ MORE</p>
+                                    </div>
+                                    </NavLink>
+                                </div>
+                        
+                            )
+                        })}
                     </div>
                 </div>
-            ))}    
-        </div>
-    </div>
-    )
-}
+            </div>
+        )
+    }
 
-export default AnnouncementsContent
+    export default AboutContent

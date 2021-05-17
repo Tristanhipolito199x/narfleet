@@ -2,11 +2,14 @@ import './GalleryCarousel.css'
 import Carousel from 'react-elastic-carousel';
 import { Carousel1, Carousel2, Carousel3 } from './GalleryCarouselModel'
 
+
 const GalleryCarousel = () => {
 
     const breakPoints = [
         { width: 1700, itemsToShow: 3.34}
       ];
+
+    
 
     return (
         <div>
@@ -64,7 +67,7 @@ const GalleryCarousel = () => {
                             })}  
                         </Carousel>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 
 .about-container{
-    width: 61%;
+    width: 58%;
     margin: auto;
  
 }
@@ -24,8 +24,8 @@
 }
 
 .about-card p{
-    font-size: 20px;
-    color: #f8f8ff;
+    font-size: 19px;
+    color: #E0E0E0;
 }
 
 .about-card p:nth-child(1){
@@ -114,8 +114,7 @@
 }
 
 @media (min-width: 1920px) {
-  
-    
+
     .carousel-card {
         height: 286px;
         width: 1525px;

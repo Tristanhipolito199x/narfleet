@@ -15,9 +15,8 @@ import c4 from '../../../assets/Photos/gallery/4th-carousel/4.png'
 import c5 from '../../../assets/Photos/gallery/4th-carousel/5.png'
 
 
-
-
-export const Carousel1 = [
+export const Carousel1 = 
+[
 
     {title: 'Swimming with Bruce by Oliver Corvera', photo: a5,},
     {title: 'Swimming with Bruce by Oliver Corvera', photo: a4,},

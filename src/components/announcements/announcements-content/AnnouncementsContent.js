@@ -9,7 +9,7 @@
         return (
             <div>
                 <div style={{display: 'grid', justifyContent: 'center'}}>
-                <AboutSearch />
+                  <AboutSearch />
                     <div className="about-container-1">
                         {AnnouncementsCard.map((item, index) =>{
                             return(

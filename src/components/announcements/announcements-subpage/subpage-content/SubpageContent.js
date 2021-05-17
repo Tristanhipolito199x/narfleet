@@ -4,7 +4,10 @@ import { SubpageData } from './SubpageContentModel'
 import AboutSearch from '../../../about/about-search/AboutSearch'
 import './SubpageContent.css'
 
+
 const SubpageContent = () => {
+
+  
 
     return (
         <div>
@@ -41,6 +44,19 @@ const SubpageContent = () => {
                         </div>
                       )
                     })} 
+                </div>
+                <div class="subpage-related">
+                    <div class="related-box">
+                        <div className="announcement-related-label-1 Avenir-medium"> RELATED FEATURES </div>
+                       
+                    </div>
+                    <div class="related-box">
+                        <div className="image-filter"></div>
+                        <div className="announcement-related-label-2 Avenir-medium"> RELATED NEWS </div>
+                        <div className="related-title-text-2 Optima-B">NARFLEET ON ACTIONS <span> | </span> NEWS </div>
+                        <div className="related-caption-text-2 Avenir-light">Filipino marine scientists venture to West PHL Sea for research, calls for #ProtectWPS</div>
+                        <div className="related-author-text-2  Avenir-light">By Yvette Geroleo</div>
+                     </div>
                 </div>
             </div>
         </div>
